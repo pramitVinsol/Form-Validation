@@ -1,38 +1,37 @@
-.App {
+.app h3{
   text-align: center;
+  max-width: 100%;
+  background-color: palegreen;
+}
+.app{
+  margin: 2% 35%;
+  background-color: palegoldenrod;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.UserForm > div{
+  margin: 3% 3%;
+  margin-top: 25px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.UserForm input[type='text'], select{
+  float: right;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.ErrorMessage{
+  margin-top: 2%;
+  text-align: right;
+  color:red
 }
 
-.App-link {
-  color: #61dafb;
+textarea{
+  width: 100%;
+  height: 70px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+select{
+  width: 150px;
+}
+
+.Button{
+  margin-bottom: 2%;
 }
